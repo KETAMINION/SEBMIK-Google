@@ -9,15 +9,16 @@ function App() {
     <div classname="app-container">
       <header className="header-container">
         <div className="left-header-container">
+          <div classname="left-div"></div>
           <Button className="buttonAbout" buttonText="About" />
           <Button className="buttonStore" buttonText="Store" />
         </div>
         <div className="right-header-container">
           <Button className="buttonGmail" buttonText="Gmail" />
           <Button className="buttonImages" buttonText="Images" />
+          <div classname="right-div"></div>
         </div>
       </header>
-      ,
       <div className="main">
         <Image
           className="logo"
@@ -38,8 +39,7 @@ function App() {
           <Button className="buttonLucky" buttonText="I'm Feeling Lucky" />
         </div>
       </div>
-      ,
-    </div>,
+    </div>
   ];
 }
 
